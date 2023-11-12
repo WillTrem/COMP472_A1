@@ -1,0 +1,1270 @@
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 24 254  52]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4351145038167939    
+Recall: 0.17117117117117117    
+F1: 0.24568965517241378
+Class M:    
+Precision: 0.4772727272727273    
+Recall: 0.6596858638743456    
+F1: 0.5538461538461539
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030110052408261
+Weighted-average F1: 0.5048018795731436
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 24 254  52]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4351145038167939    
+Recall: 0.17117117117117117    
+F1: 0.24568965517241378
+Class M:    
+Precision: 0.4772727272727273    
+Recall: 0.6596858638743456    
+F1: 0.5538461538461539
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030110052408261
+Weighted-average F1: 0.5048018795731436
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Base-DT: 0.5393301435406699
+ Average Variance for Base-DT: 2.197751882969633e-07
+(B)Average Macro F1 for Base-DT: 0.5039024670214654
+ Average Variance for Base-DT: 5.298027375603177e-07
+(C)Average Weighted F1 for Base-DT: 0.5056884213215256
+ Average Variance for Base-DT: 5.239708477495115e-07
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Top-DT: 0.539712918660287
+ Average Variance for Top-DT: 0.0
+(B)Average Macro F1 for Top-DT: 0.5044967748752248
+ Average Variance for Top-DT: 0.0
+(C)Average Weighted F1 for Top-DT: 0.5062794491537803
+ Average Variance for Top-DT: 0.0
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  53 280]
+ [  0 219 111]
+ [  0  78 304]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.437410071942446    
+Recall: 0.7958115183246073    
+F1: 0.5645311049210769
+Class I:    
+Precision: 0.6257142857142857    
+Recall: 0.6636363636363637    
+F1: 0.6441176470588235
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5004784688995215
+Macro-average F1: 0.40288291732663345
+Weighted-average F1: 0.40977005321460586
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  53 280]
+ [  0 219 111]
+ [  0  82 300]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.4341534008683068    
+Recall: 0.7853403141361257    
+F1: 0.5591798695246971
+Class I:    
+Precision: 0.6186440677966102    
+Recall: 0.6636363636363637    
+F1: 0.6403508771929824
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.4966507177033493
+Macro-average F1: 0.3998435822392265
+Weighted-average F1: 0.4066244015618359
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  51 282]
+ [  0 219 111]
+ [  0  73 309]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.44017094017094016    
+Recall: 0.8089005235602095    
+F1: 0.570110701107011
+Class I:    
+Precision: 0.6384839650145773    
+Recall: 0.6636363636363637    
+F1: 0.650817236255572
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5052631578947369
+Macro-average F1: 0.406975979120861
+Weighted-average F1: 0.4139253356815473
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  52 281]
+ [  0 219 111]
+ [  0  75 307]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.43919885550786836    
+Recall: 0.8036649214659686    
+F1: 0.5679925994449584
+Class I:    
+Precision: 0.6329479768786127    
+Recall: 0.6636363636363637    
+F1: 0.6479289940828402
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5033492822966508
+Macro-average F1: 0.40530719784259955
+Weighted-average F1: 0.41223898663666164
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  53 280]
+ [  0 219 111]
+ [  0  78 304]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.437410071942446    
+Recall: 0.7958115183246073    
+F1: 0.5645311049210769
+Class I:    
+Precision: 0.6257142857142857    
+Recall: 0.6636363636363637    
+F1: 0.6441176470588235
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5004784688995215
+Macro-average F1: 0.40288291732663345
+Weighted-average F1: 0.40977005321460586
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Base-MLP: 0.501244019138756
+ Average Variance for Base-MLP: 8.571232343581942e-06
+(B)Average Macro F1 for Base-MLP: 0.4035785187711908
+ Average Variance for Base-MLP: 5.889708359329932e-06
+(C)Average Weighted F1 for Base-MLP: 0.4104657660618513
+ Average Variance for Base-MLP: 6.167409422815571e-06
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[103  35 195]
+ [ 19 250  61]
+ [107  68 207]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4497816593886463    
+Recall: 0.30930930930930933    
+F1: 0.3665480427046263
+Class M:    
+Precision: 0.4470842332613391    
+Recall: 0.5418848167539267    
+F1: 0.48994082840236686
+Class I:    
+Precision: 0.7082152974504249    
+Recall: 0.7575757575757576    
+F1: 0.7320644216691067
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5358851674641149
+Macro-average F1: 0.5295177642587
+Weighted-average F1: 0.5270805299723923
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 70  32 231]
+ [ 16 242  72]
+ [ 82  62 238]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4166666666666667    
+Recall: 0.21021021021021022    
+F1: 0.2794411177644711
+Class M:    
+Precision: 0.4399260628465804    
+Recall: 0.6230366492146597    
+F1: 0.5157096424702059
+Class I:    
+Precision: 0.7202380952380952    
+Recall: 0.7333333333333333    
+F1: 0.7267267267267268
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5263157894736842
+Macro-average F1: 0.5072924956538013
+Weighted-average F1: 0.5070572205349353
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 74  40 219]
+ [ 13 250  67]
+ [ 76  73 233]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4539877300613497    
+Recall: 0.2222222222222222    
+F1: 0.29838709677419356
+Class M:    
+Precision: 0.4489402697495183    
+Recall: 0.6099476439790575    
+F1: 0.5172031076581576
+Class I:    
+Precision: 0.6887052341597796    
+Recall: 0.7575757575757576    
+F1: 0.7215007215007215
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5330143540669856
+Macro-average F1: 0.5123636419776909
+Weighted-average F1: 0.5119901707621634
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[152  43 138]
+ [ 26 264  40]
+ [159  80 143]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.45103857566765576    
+Recall: 0.45645645645645644    
+F1: 0.45373134328358206
+Class M:    
+Precision: 0.4454828660436137    
+Recall: 0.3743455497382199    
+F1: 0.406827880512091
+Class I:    
+Precision: 0.6821705426356589    
+Recall: 0.8    
+F1: 0.7364016736401673
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5349282296650718
+Macro-average F1: 0.5323202991452801
+Weighted-average F1: 0.5258500860959874
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 42  45 246]
+ [  7 262  61]
+ [ 58  82 242]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.3925233644859813    
+Recall: 0.12612612612612611    
+F1: 0.1909090909090909
+Class M:    
+Precision: 0.4408014571948998    
+Recall: 0.6335078534031413    
+F1: 0.5198711063372718
+Class I:    
+Precision: 0.6735218508997429    
+Recall: 0.793939393939394    
+F1: 0.7287899860917942
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.522488038277512
+Macro-average F1: 0.47985672777938565
+Weighted-average F1: 0.4810183591424471
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Top-MLP: 0.5305263157894736
+ Average Variance for Top-MLP: 2.7325381744923416e-05
+(B)Average Macro F1 for Top-MLP: 0.5122701857629716
+ Average Variance for Top-MLP: 0.00035498088039008664
+(C)Average Weighted F1 for Top-MLP: 0.5105992733015852
+ Average Variance for Top-MLP: 0.0002787460656753591
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 49  80 253]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4393939393939394    
+Recall: 0.17417417417417416    
+F1: 0.2494623655913978
+Class M:    
+Precision: 0.48007590132827327    
+Recall: 0.662303664921466    
+F1: 0.5566556655665568
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5406698564593302
+Macro-average F1: 0.5052050792872884
+Weighted-average F1: 0.507031110239857
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 24 254  52]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4351145038167939    
+Recall: 0.17117117117117117    
+F1: 0.24568965517241378
+Class M:    
+Precision: 0.4772727272727273    
+Recall: 0.6596858638743456    
+F1: 0.5538461538461539
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030110052408261
+Weighted-average F1: 0.5048018795731436
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Base-DT: 0.539712918660287
+ Average Variance for Base-DT: 3.6629198049498135e-07
+(B)Average Macro F1 for Base-DT: 0.5043412818307578
+ Average Variance for Base-DT: 5.176632224523924e-07
+(C)Average Weighted F1 for Base-DT: 0.5061342674548683
+ Average Variance for Base-DT: 5.285635250900238e-07
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 49  80 253]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4393939393939394    
+Recall: 0.17417417417417416    
+F1: 0.2494623655913978
+Class M:    
+Precision: 0.48007590132827327    
+Recall: 0.662303664921466    
+F1: 0.5566556655665568
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5406698564593302
+Macro-average F1: 0.5052050792872884
+Weighted-average F1: 0.507031110239857
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 24 254  52]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4351145038167939    
+Recall: 0.17117117117117117    
+F1: 0.24568965517241378
+Class M:    
+Precision: 0.4772727272727273    
+Recall: 0.6596858638743456    
+F1: 0.5538461538461539
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030110052408261
+Weighted-average F1: 0.5048018795731436
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 49  80 253]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4393939393939394    
+Recall: 0.17417417417417416    
+F1: 0.2494623655913978
+Class M:    
+Precision: 0.48007590132827327    
+Recall: 0.662303664921466    
+F1: 0.5566556655665568
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5406698564593302
+Macro-average F1: 0.5052050792872884
+Weighted-average F1: 0.507031110239857
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 49  80 253]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4393939393939394    
+Recall: 0.17417417417417416    
+F1: 0.2494623655913978
+Class M:    
+Precision: 0.48007590132827327    
+Recall: 0.662303664921466    
+F1: 0.5566556655665568
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5406698564593302
+Macro-average F1: 0.5052050792872884
+Weighted-average F1: 0.507031110239857
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Top-DT: 0.5400956937799044
+ Average Variance for Top-DT: 5.860671687919787e-07
+(B)Average Macro F1 for Top-DT: 0.5046246035955833
+ Average Variance for Top-DT: 7.26179183641051e-07
+(C)Average Weighted F1 for Top-DT: 0.506434931889299
+ Average Variance for Top-DT: 7.51464125073436e-07
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  52 281]
+ [  0 219 111]
+ [  0  75 307]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.43919885550786836    
+Recall: 0.8036649214659686    
+F1: 0.5679925994449584
+Class I:    
+Precision: 0.6329479768786127    
+Recall: 0.6636363636363637    
+F1: 0.6479289940828402
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5033492822966508
+Macro-average F1: 0.40530719784259955
+Weighted-average F1: 0.41223898663666164
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  44 289]
+ [  0 219 111]
+ [  0  67 315]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.4405594405594406    
+Recall: 0.824607329842932    
+F1: 0.5742935278030994
+Class I:    
+Precision: 0.6636363636363637    
+Recall: 0.6636363636363637    
+F1: 0.6636363636363637
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5110047846889952
+Macro-average F1: 0.4126432971464877
+Weighted-average F1: 0.4195025144696498
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  53 280]
+ [  0 219 111]
+ [  0  82 300]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.4341534008683068    
+Recall: 0.7853403141361257    
+F1: 0.5591798695246971
+Class I:    
+Precision: 0.6186440677966102    
+Recall: 0.6636363636363637    
+F1: 0.6403508771929824
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.4966507177033493
+Macro-average F1: 0.3998435822392265
+Weighted-average F1: 0.4066244015618359
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  47 286]
+ [  0 219 111]
+ [  0  72 310]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.43847241867043846    
+Recall: 0.8115183246073299    
+F1: 0.5693296602387511
+Class I:    
+Precision: 0.6479289940828402    
+Recall: 0.6636363636363637    
+F1: 0.655688622754491
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5062200956937799
+Macro-average F1: 0.40833942766441406
+Weighted-average F1: 0.41517815858390905
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  53 280]
+ [  0 219 111]
+ [  0  78 304]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.437410071942446    
+Recall: 0.7958115183246073    
+F1: 0.5645311049210769
+Class I:    
+Precision: 0.6257142857142857    
+Recall: 0.6636363636363637    
+F1: 0.6441176470588235
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5004784688995215
+Macro-average F1: 0.40288291732663345
+Weighted-average F1: 0.40977005321460586
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Base-MLP: 0.5035406698564594
+ Average Variance for Base-MLP: 2.3955495524369926e-05
+(B)Average Macro F1 for Base-MLP: 0.40580328444387226
+ Average Variance for Base-MLP: 1.9502098518102375e-05
+(C)Average Weighted F1 for Base-MLP: 0.4126628228933325
+ Average Variance for Base-MLP: 1.9623716051747327e-05
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 93  41 199]
+ [ 14 261  55]
+ [ 99  79 204]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.45145631067961167    
+Recall: 0.27927927927927926    
+F1: 0.3450834879406307
+Class M:    
+Precision: 0.44541484716157204    
+Recall: 0.5340314136125655    
+F1: 0.4857142857142857
+Class I:    
+Precision: 0.6850393700787402    
+Recall: 0.7909090909090909    
+F1: 0.7341772151898733
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5339712918660288
+Macro-average F1: 0.52165832961493
+Weighted-average F1: 0.5193628130523879
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 53  29 251]
+ [ 10 240  80]
+ [ 56  61 265]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.44537815126050423    
+Recall: 0.15915915915915915    
+F1: 0.2345132743362832
+Class M:    
+Precision: 0.4446308724832215    
+Recall: 0.693717277486911    
+F1: 0.5419222903885481
+Class I:    
+Precision: 0.7272727272727273    
+Recall: 0.7272727272727273    
+F1: 0.7272727272727273
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5339712918660288
+Macro-average F1: 0.5012360973325195
+Weighted-average F1: 0.5024949619927347
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 97  39 197]
+ [ 17 253  60]
+ [ 92  76 214]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.470873786407767    
+Recall: 0.2912912912912913    
+F1: 0.359925788497217
+Class M:    
+Precision: 0.4543524416135881    
+Recall: 0.5602094240837696    
+F1: 0.5017584994138334
+Class I:    
+Precision: 0.6875    
+Recall: 0.7666666666666667    
+F1: 0.7249283667621776
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.528870884891076
+Weighted-average F1: 0.5270367419877285
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[158  43 132]
+ [ 22 259  49]
+ [157  79 146]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4688427299703264    
+Recall: 0.4744744744744745    
+F1: 0.4716417910447761
+Class M:    
+Precision: 0.44648318042813456    
+Recall: 0.38219895287958117    
+F1: 0.41184767277856144
+Class I:    
+Precision: 0.6797900262467191    
+Recall: 0.7848484848484848    
+F1: 0.7285513361462729
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5373469333232034
+Weighted-average F1: 0.5309133668398
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 80  39 214]
+ [ 21 254  55]
+ [ 94  69 219]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.41025641025641024    
+Recall: 0.24024024024024024    
+F1: 0.303030303030303
+Class M:    
+Precision: 0.4487704918032787    
+Recall: 0.5732984293193717    
+F1: 0.503448275862069
+Class I:    
+Precision: 0.7016574585635359    
+Recall: 0.7696969696969697    
+F1: 0.7341040462427746
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5291866028708134
+Macro-average F1: 0.5135275417117154
+Weighted-average F1: 0.5124216914339874
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Top-MLP: 0.5351196172248803
+ Average Variance for Top-MLP: 1.4431904031500856e-05
+(B)Average Macro F1 for Top-MLP: 0.5205279573746888
+ Average Variance for Top-MLP: 0.0001549883632485924
+(C)Average Weighted F1 for Top-MLP: 0.5184459150613276
+ Average Variance for Top-MLP: 0.0001041609074325153
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4318181818181818    
+Recall: 0.17117117117117117    
+F1: 0.24516129032258066
+Class M:    
+Precision: 0.4781783681214421    
+Recall: 0.6596858638743456    
+F1: 0.5544554455445544
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030379808570152
+Weighted-average F1: 0.5048562374045259
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 49  80 253]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4393939393939394    
+Recall: 0.17417417417417416    
+F1: 0.2494623655913978
+Class M:    
+Precision: 0.48007590132827327    
+Recall: 0.662303664921466    
+F1: 0.5566556655665568
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5406698564593302
+Macro-average F1: 0.5052050792872884
+Weighted-average F1: 0.507031110239857
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 24 254  52]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4351145038167939    
+Recall: 0.17117117117117117    
+F1: 0.24568965517241378
+Class M:    
+Precision: 0.4772727272727273    
+Recall: 0.6596858638743456    
+F1: 0.5538461538461539
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030110052408261
+Weighted-average F1: 0.5048018795731436
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4318181818181818    
+Recall: 0.17117117117117117    
+F1: 0.24516129032258066
+Class M:    
+Precision: 0.4781783681214421    
+Recall: 0.6596858638743456    
+F1: 0.5544554455445544
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030379808570152
+Weighted-average F1: 0.5048562374045259
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Base-DT: 0.5393301435406699
+ Average Variance for Base-DT: 5.860671687919617e-07
+(B)Average Macro F1 for Base-DT: 0.5037577642234738
+ Average Variance for Base-DT: 8.469365609544138e-07
+(C)Average Weighted F1 for Base-DT: 0.5055649827551665
+ Average Variance for Base-DT: 8.493916893271987e-07
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4318181818181818    
+Recall: 0.17117117117117117    
+F1: 0.24516129032258066
+Class M:    
+Precision: 0.4781783681214421    
+Recall: 0.6596858638743456    
+F1: 0.5544554455445544
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030379808570152
+Weighted-average F1: 0.5048562374045259
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(A)Average Accuracy for Top-DT: 0.5395215311004785
+ Average Variance for Top-DT: 1.4651679219797553e-07
+(B)Average Macro F1 for Top-DT: 0.504205016071583
+ Average Variance for Top-DT: 3.404927980102512e-07
+(C)Average Weighted F1 for Top-DT: 0.5059948068039294
+ Average Variance for Top-DT: 3.240850693145304e-07

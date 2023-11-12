@@ -94,3 +94,99 @@ Macro-average F1: 0.21505376344086022
 Weighted-average F1: 0.3072196620583717
 
 
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[40  0  0]
+ [ 1 14  0]
+ [ 0  0 29]]
+(C) Precision, recall & F1 values for each class
+Class Adelie:    
+Precision: 0.975609756097561    
+Recall: 1.0    
+F1: 0.9876543209876543
+Class Chinstrap:    
+Precision: 1.0    
+Recall: 0.9333333333333333    
+F1: 0.9655172413793104
+Class Gentoo:    
+Precision: 1.0    
+Recall: 1.0    
+F1: 1.0
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.9880952380952381
+Macro-average F1: 0.9843905207889883
+Weighted-average F1: 0.9879634697642361
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - gini, 5, 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[39  1  0]
+ [ 1 14  0]
+ [ 0  0 29]]
+(C) Precision, recall & F1 values for each class
+Class Adelie:    
+Precision: 0.975    
+Recall: 0.975    
+F1: 0.975
+Class Chinstrap:    
+Precision: 0.9333333333333333    
+Recall: 0.9333333333333333    
+F1: 0.9333333333333333
+Class Gentoo:    
+Precision: 1.0    
+Recall: 1.0    
+F1: 1.0
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.9761904761904762
+Macro-average F1: 0.9694444444444444
+Weighted-average F1: 0.9761904761904762
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[40  0  0]
+ [15  0  0]
+ [29  0  0]]
+(C) Precision, recall & F1 values for each class
+Class Adelie:    
+Precision: 0.47619047619047616    
+Recall: 1.0    
+F1: 0.6451612903225806
+Class Chinstrap:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class Gentoo:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.47619047619047616
+Macro-average F1: 0.21505376344086022
+Weighted-average F1: 0.3072196620583717
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (15, 15, 15), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[40  0  0]
+ [15  0  0]
+ [29  0  0]]
+(C) Precision, recall & F1 values for each class
+Class Adelie:    
+Precision: 0.47619047619047616    
+Recall: 1.0    
+F1: 0.6451612903225806
+Class Chinstrap:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class Gentoo:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.47619047619047616
+Macro-average F1: 0.21505376344086022
+Weighted-average F1: 0.3072196620583717
+
+
