@@ -9,12 +9,38 @@ import graphviz
 from sklearn.model_selection import GridSearchCV
 from graphviz import Source
 from sklearn.neural_network import MLPClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
+
+# STEP 5 - Model Performance
+
+def model_performance_to_txt(fileName, modelName, y_test, y_pred, classes, hyperParameters = ""):
+    class_report = classification_report(y_test, y_pred, output_dict=True)
+    conf_matrix = confusion_matrix(y_test, y_pred)
+    with open(fileName, 'a') as file:
+        file.write('(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'+ modelName + " - " + hyperParameters + "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" )
+        file.write('\n(B) Confusion Matrix')
+        file.write('\n' + str(conf_matrix))
+        file.write('\n(C) Precision, recall & F1 values for each class')
+        for className in classes:
+            file.write('\nClass ' + className + ':')
+            file.write('    \nPrecision: ' + str(class_report[className]['precision']))
+            file.write('    \nRecall: ' + str(class_report[className]['recall']))
+            file.write('    \nF1: ' + str(class_report[className]['f1-score']))
+        file.write('\n(D) Accuracy, marcro-average & weighted-average F1')
+        file.write('\nAccuracy: '+ str(class_report['accuracy']))
+        file.write('\nMacro-average F1: '+ str(class_report['macro avg']['f1-score']))
+        file.write('\nWeighted-average F1: '+ str(class_report['weighted avg']['f1-score']))
+        file.write('\n\n\n')
+
 
 # STEP 1
 # Load both data sets
 penguin_data = pd.read_csv("penguins.csv")
 abalone_data = pd.read_csv("abalone.csv")
+
+penguin_classes = penguin_data['species'].unique()
+abalone_classes = abalone_data['Type'].unique()
 
 # Converting island and sex features with dummy-coded data for Peguin dataset
 penguin_data_dummy = pd.get_dummies(penguin_data, columns=['island', 'sex']) #cam add 'sex'
@@ -26,7 +52,8 @@ penguin_data_categorical['sex'] = pd.Categorical(penguin_data['sex']).codes
 penguin_data_categorical['island'] = pd.Categorical(penguin_data['island']).codes
 
 # Converting type features to categories for Abalone dataset
-abalone_data['Type'] = pd.Categorical(abalone_data['Type'])
+abalone_data_categorical = abalone_data
+abalone_data_categorical['Type'] = pd.Categorical(abalone_data['Type'])
 
 # Calculate the percentage of instances in each output class
 penguin_class_counts = penguin_data['species'].value_counts()
@@ -68,8 +95,8 @@ X_penguin = penguin_data_categorical.drop(columns=['species'])  # Features
 y_penguin = penguin_data_categorical['species']  # Target
 
 # Assuming "type" is the target variable
-X_abalone = abalone_data.drop(columns=['Type'])  # Features
-y_abalone = abalone_data['Type']  # Target
+X_abalone = abalone_data_categorical.drop(columns=['Type'])  # Features
+y_abalone = abalone_data_categorical['Type']  # Target
 
 
 X_train_penguin, X_test_penguin, y_train_penguin, y_test_penguin = train_test_split(X_penguin, y_penguin, random_state=42)
@@ -97,7 +124,7 @@ graph.render("abalone_decision_tree")  # Saves the graph to "abalone_decision_tr
 # Tests the model with the testing data
 y_pred_abalone = clf.predict(X_test_abalone)
 
-print("Abalone Base-DT Accuracy: ", accuracy_score(y_test_abalone, y_pred_abalone))
+model_performance_to_txt("abalone-performance.txt", "Base-DT", y_test_abalone, y_pred_abalone, abalone_classes, "max_depth=5")
 
 # (b) Top-DT
 # Define the hyperparameters grid
@@ -120,7 +147,7 @@ best_dt = grid_search.best_estimator_
 # Visualize the Decision Tree
 dot_data = export_graphviz(best_dt, out_file=None, 
                            feature_names=X_abalone.columns,
-                           class_names=best_dt.classes_,
+                           class_names=abalone_classes,
                            filled=True, rounded=True, special_characters=True)
 graph = Source(dot_data)
 graph.render("abalone_best_decision_tree")
@@ -128,9 +155,13 @@ graph.render("abalone_best_decision_tree")
 # Tests the model with the testing data
 y_pred_abalone = best_dt.predict(X_test_abalone)
 
-print("Abalone Top-DT Accuracy: ", accuracy_score(y_test_abalone, y_pred_abalone))
+hyper_params = best_dt.get_params()
+subset_params = {param: hyper_params[param] for param in ['criterion', 'max_depth', 'min_samples_split']}
+
+model_performance_to_txt("abalone-performance.txt", "Top-DT", y_test_abalone, y_pred_abalone, abalone_classes, ', '.join(map(str, subset_params.values())))
 
 # (c) Base-MLP
+
 # Create a MLP Classifier with two hidden layers of 100 neurons each, logistic activation function and stochastic gradient descent
 mlp_clf = MLPClassifier(hidden_layer_sizes=(100, 100), activation='logistic', solver='sgd')
 
@@ -140,9 +171,8 @@ mlp_clf.fit(X_train_abalone, y_train_abalone)
 # Test the model 
 y_pred_abalone = mlp_clf.predict(X_test_abalone)
 
-# Print the accuracy 
-print("Abalone Base-MLP Accuracy: ", accuracy_score(y_test_abalone, y_pred_abalone))
 
+model_performance_to_txt("abalone-performance.txt", "Base-MLP", y_test_abalone, y_pred_abalone, abalone_classes, "(100, 100), logistic, sgd")
 # (d) Top-MLP
 top_mlp_clf = MLPClassifier()
 
@@ -159,8 +189,11 @@ best_mlp_clf = mlp_grid_search.best_estimator_
 
 y_pred_abalone = best_mlp_clf.predict(X_test_abalone)
 
-print("Abalone Top-MLP Accuracy: ", accuracy_score(y_test_abalone, y_pred_abalone))
+hyper_params = best_mlp_clf.get_params()
+subset_params = {param: hyper_params[param] for param in ['hidden_layer_sizes', 'activation', 'solver']}
 
+
+model_performance_to_txt("abalone-performance.txt", "Top-MLP", y_test_abalone, y_pred_abalone, abalone_classes, ', '.join(map(str, subset_params.values())))
 
 # STEP 4 - PENGUIN
 # (a) Base-DT
@@ -184,7 +217,7 @@ graph.render("penguin_decision_tree")  # Saves the graph to "penguin_decision_tr
 # Tests the model with the testing data
 y_pred_penguin = clf.predict(X_test_penguin)
 
-print("Penguin Base-DT Accuracy: ", accuracy_score(y_test_penguin, y_pred_penguin))
+model_performance_to_txt("penguin-performance.txt", "Base-DT", y_test_penguin, y_pred_penguin, penguin_classes)
 
 # (b) Top-DT
 
@@ -210,8 +243,10 @@ graph.render("penguin_best_decision_tree")
 # Tests the model with the testing data
 y_pred_penguin = best_dt.predict(X_test_penguin)
 
-print("Penguin Top-DT Accuracy: ", accuracy_score(y_test_penguin, y_pred_penguin))
+hyper_params = best_dt.get_params()
+subset_params = {param: hyper_params[param] for param in ['criterion', 'max_depth', 'min_samples_split']}
 
+model_performance_to_txt("penguin-performance.txt", "Top-DT", y_test_penguin, y_pred_penguin, penguin_classes, ', '.join(map(str, subset_params.values())))
 # (c) Base-MLP
 # Create a MLP Classifier with two hidden layers of 100 neurons each, logistic activation function and stochastic gradient descent
 mlp_clf = MLPClassifier(hidden_layer_sizes=(100, 100), activation='logistic', solver='sgd')
@@ -222,9 +257,7 @@ mlp_clf.fit(X_train_penguin, y_train_penguin)
 # Test the model 
 y_pred_penguin = mlp_clf.predict(X_test_penguin)
 
-# Print the accuracy 
-print("Penguin Base-MLP Accuracy: ", accuracy_score(y_test_penguin, y_pred_penguin))
-
+model_performance_to_txt("penguin-performance.txt", "Base-MLP", y_test_penguin, y_pred_penguin, penguin_classes, "(100, 100), logistic, sgd")
 # (d) Top-MLP
 top_mlp_clf = MLPClassifier()
 
@@ -239,5 +272,7 @@ best_mlp_clf = mlp_grid_search.best_estimator_
 # Test the model
 y_pred_penguin = best_mlp_clf.predict(X_test_penguin)
 
-# Print the accuracy
-print("Penguin Top-MLP Accuracy: ", accuracy_score(y_test_penguin, y_pred_penguin))
+hyper_params = best_mlp_clf.get_params()
+subset_params = {param: hyper_params[param] for param in ['hidden_layer_sizes', 'activation', 'solver']}
+
+model_performance_to_txt("penguin-performance.txt", "Top-MLP", y_test_penguin, y_pred_penguin, penguin_classes, ', '.join(map(str, subset_params.values())))

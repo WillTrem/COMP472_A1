@@ -18,7 +18,7 @@ edge [fontname="helvetica"] ;
 1 -> 7 ;
 8 [label=<island &le; 0.5<br/>gini = 0.119<br/>samples = 48<br/>value = [2, 45, 1]<br/>class = Female>, fillcolor="#46e789"] ;
 7 -> 8 ;
-9 [label=<culmen_length_mm &le; 47.0<br/>gini = 0.5<br/>samples = 2<br/>value = [1, 0, 1]<br/>class = Male>, fillcolor="#ffffff"] ;
+9 [label=<flipper_length_mm &le; 197.0<br/>gini = 0.5<br/>samples = 2<br/>value = [1, 0, 1]<br/>class = Male>, fillcolor="#ffffff"] ;
 8 -> 9 ;
 10 [label=<gini = 0.0<br/>samples = 1<br/>value = [1, 0, 0]<br/>class = Male>, fillcolor="#e58139"] ;
 9 -> 10 ;

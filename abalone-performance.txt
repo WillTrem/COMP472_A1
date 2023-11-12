@@ -1,0 +1,96 @@
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-DT - max_depth=5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 57  52 224]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4318181818181818    
+Recall: 0.17117117117117117    
+F1: 0.24516129032258066
+Class M:    
+Precision: 0.4781783681214421    
+Recall: 0.6596858638743456    
+F1: 0.5544554455445544
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5030379808570152
+Weighted-average F1: 0.5048562374045259
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-DT - gini, 5, 5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[ 58  52 223]
+ [ 25 254  51]
+ [ 50  80 252]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.43609022556390975    
+Recall: 0.17417417417417416    
+F1: 0.24892703862660945
+Class M:    
+Precision: 0.4790874524714829    
+Recall: 0.6596858638743456    
+F1: 0.5550660792951542
+Class I:    
+Precision: 0.6580310880829016    
+Recall: 0.7696969696969697    
+F1: 0.7094972067039106
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.539712918660287
+Macro-average F1: 0.5044967748752248
+Weighted-average F1: 0.5062794491537803
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Base-MLP - (100, 100), logistic, sgd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[  0  52 281]
+ [  0 219 111]
+ [  0  76 306]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.0    
+Recall: 0.0    
+F1: 0.0
+Class M:    
+Precision: 0.4383954154727794    
+Recall: 0.8010471204188482    
+F1: 0.5666666666666668
+Class I:    
+Precision: 0.6311239193083573    
+Recall: 0.6636363636363637    
+F1: 0.6469719350073855
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.5023923444976076
+Macro-average F1: 0.40454620055801743
+Weighted-average F1: 0.41145206241062576
+
+
+(A)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Top-MLP - (25, 25), tanh, adam~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(B) Confusion Matrix
+[[145  30 158]
+ [ 22 239  69]
+ [141  62 179]]
+(C) Precision, recall & F1 values for each class
+Class F:    
+Precision: 0.4707792207792208    
+Recall: 0.43543543543543545    
+F1: 0.45241809672386896
+Class M:    
+Precision: 0.4408866995073892    
+Recall: 0.468586387434555    
+F1: 0.4543147208121827
+Class I:    
+Precision: 0.7220543806646526    
+Recall: 0.7242424242424242    
+F1: 0.7231467473524963
+(D) Accuracy, marcro-average & weighted-average F1
+Accuracy: 0.538755980861244
+Macro-average F1: 0.5432931882961827
+Weighted-average F1: 0.5386046662063406
+
+
